@@ -19,12 +19,12 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
+import JavaLabProject.Game;
 import Players.Player;
 import Players.Preschooler;
 import Players.Student;
 import Players.Pupil;
 import Threads.Timer;
-import jakiesGlupoty.Game;
 
 @SuppressWarnings("unused")
 public class Menu extends JFrame implements ActionListener {
