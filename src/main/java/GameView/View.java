@@ -129,8 +129,7 @@ public class View extends JFrame implements InterfaceView {
 
 			namesButtons[i].setBackground(colors[i]);
 
-			namesButtons[i].setHorizontalAlignment(JLabel.CENTER);
-			namesButtons[i].setHorizontalTextPosition(JLabel.CENTER);
+			
 			namesButtons[i].add(playerBadge[i]);
 
 			namesPanel.add(namesButtons[i]);
@@ -153,7 +152,7 @@ public class View extends JFrame implements InterfaceView {
 	private void setPlayersOnButtons(String[] names) {
 		for (int i = 0; i < 2; i++) {
 
-			playerBadge[i] = new JLabel("PLAYER " + (i + 1) + ": " + names[i], JLabel.CENTER);
+			playerBadge[i] = new JLabel("PLAYER " + (i + 1) + ": " + names[i]);
 		}
 	}
 
